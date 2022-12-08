@@ -9,6 +9,20 @@ export default defineConfig({
       target: "es2020",
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        chunkFileNames: "assets/js/[name]-[hash].js",
+        entryFileNames: "assets/js/[name]-[hash].js",
+
+        assetFileNames: ({ name }) => {
+          // default value
+          // ref: https://rollupjs.org/guide/en/#outputassetfilenames
+          return "assets/[name]-[hash][extname]";
+        },
+      },
+    },
+  },
   esbuild: {
     // https://github.com/vitejs/vite/issues/8644#issuecomment-1159308803
     logOverride: { "this-is-undefined-in-esm": "silent" },
