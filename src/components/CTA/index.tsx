@@ -1,6 +1,7 @@
 import tw from "twin.macro";
-import { getUrl } from "../../utils";
-const CTAUrl = getUrl("../../assets/clip_uploading_small.svg", import.meta.url);
+import CTAUrl from "../../assets/clip_uploading_small.svg";
+
+// const CTAUrl = getUrl("../../assets/clip_uploading_small.svg", import.meta.url);
 
 const CTA = () => (
   <section tw="grid justify-items-center items-center tab:(flex justify-center items-center)">

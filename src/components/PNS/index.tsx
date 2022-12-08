@@ -1,6 +1,7 @@
 import tw from "twin.macro";
-import { getUrl } from "../../utils";
-const PNSUrl = getUrl("../../assets/clip_sign_up_small.svg", import.meta.url);
+
+// const PNSUrl = getUrl("../../assets/clip_sign_up_small.svg", import.meta.url);
+import PNSUrl from "../../assets/clip_sign_up_small.svg";
 
 const PNS = () => (
   <section

@@ -1,9 +1,11 @@
 import tw from "twin.macro";
-import { getUrl } from "../../utils";
-const paymentUrl = getUrl(
-  "../../assets/clip_payment_small.svg",
-  import.meta.url
-);
+
+// const paymentUrl = getUrl(
+//   "../../assets/clip_payment_small.svg",
+//   import.meta.url
+// );
+
+import paymentUrl from "../../assets/clip_payment_small.svg";
 
 const Hero = () => (
   <section

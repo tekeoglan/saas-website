@@ -1,9 +1,10 @@
 import tw from "twin.macro";
-import { getUrl } from "../../utils";
-const clientImgUrl = getUrl(
-  "../../assets/rick_image_small.jpg",
-  import.meta.url
-);
+import clientImgUrl from "../../assets/rick_image_small.jpg";
+
+// const clientImgUrl = getUrl(
+//   "../../assets/rick_image_small.jpg",
+//   import.meta.url
+// );
 
 interface HoldingProps {
   coin: string;

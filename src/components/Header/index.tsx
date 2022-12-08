@@ -1,6 +1,8 @@
 import tw from "twin.macro";
-import { getUrl } from "../../utils";
-const menuUrl = getUrl("../../assets/menu_small.svg", import.meta.url);
+
+// const menuUrl = getUrl("../../assets/menu_small.svg", import.meta.url);
+
+import menuUrl from "../../assets/menu_small.svg";
 
 const Header = () => (
   <header tw="flex justify-between items-center gap-3 px-6 py-8 bg-blue-darker">

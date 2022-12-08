@@ -1,5 +1,4 @@
 import tw from "twin.macro";
-import { getUrl } from "../../utils";
 
 const footerNavStyles = {
   container: tw`grid text-base leading-9 tracking-tight tab:h-min`,

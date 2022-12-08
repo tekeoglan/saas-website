@@ -1,6 +1,7 @@
 import tw from "twin.macro";
-import { getUrl } from "../../utils";
-const videoUrl = getUrl("../../assets/screen_demo_small.svg", import.meta.url);
+import videoUrl from "../../assets/screen_demo_small.svg";
+
+// const videoUrl = getUrl("../../assets/screen_demo_small.svg", import.meta.url);
 
 const Video = () => (
   <section tw="grid px-6 py-[4.5rem] pc:(flex items-center gap-[9.75rem] px-12 pt-[8.125rem])">
